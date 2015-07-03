@@ -23,6 +23,7 @@
   "dependencies": {
     "babelsbergjs-cassowary": "~0.1.0",
     "babelsbergjs-core": "~0.1.0",
+    "babelsbergjs-require": "^0.1.2",
     "express": "^4.13.0"
   },
   "devDependencies": {

@@ -1,0 +1,20 @@
+var bbb = require("babelsbergjs-core");
+var ClSimplexSolver = require('babelsbergjs-cassowary').ClSimplexSolver
+
+function CollisionConstraint(rectA, rectB) {
+  this.rectA = rectA || {x: 0, y: 0, width: 10, height: 10};
+  this.rectB = rectB || {x: 10, y: 10, width: 10, height: 10};
+};
+module.exports = CollisionConstraint;
+
+CollisionConstraint.prototype.enforce = function() {
+  var a = this.rectA;
+  var b = this.rectB;
+  s = new ClSimplexSolver();
+  always: { solver: s
+    a.x + a.width <= b.x || b.x + a.width <= a.x
+  }
+  always: { solver: s
+    a.y + a.height <= b.y || b.y + a.height <= a.y
+  }
+};
