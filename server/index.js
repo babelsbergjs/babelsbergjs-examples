@@ -1,15 +1,13 @@
 var express = require('express');
 var bbb_require = require("babelsbergjs-require");
 
-var CollisionConstraint = bbb_require('./server/constraint_avoids_collision.bbb');
-
 var rects = {
   'first': {width: 200, height: 100, x: 50, y: 50},
   'second': {width: 200, height: 100, x: 300, y: 300}
 };
 
-var constraint = new CollisionConstraint(rects['first'], rects['second']);
-constraint.enforce();
+var CollisionConstraint = bbb_require('./server/constraint_avoids_collision.bbb');
+new CollisionConstraint(rects['first'], rects['second']);
 
 var app = express();
 app.use(express.static('server/public'));
