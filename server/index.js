@@ -3,7 +3,7 @@ var bbb_require = require("babelsbergjs-require");
 
 var rects = {
   'first': {width: 200, height: 100, x: 50, y: 50},
-  'second': {width: 200, height: 100, x: 300, y: 300}
+  'second': {width: 75, height: 50, x: 300, y: 300}
 };
 
 var CollisionConstraint = bbb_require('./server/constraint_avoids_collision.bbb');
