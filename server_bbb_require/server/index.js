@@ -2,12 +2,11 @@ var express = require('express');
 var bbb_require = require('babelsbergjs-require');
 var CollisionConstraint = bbb_require('./server/collision_constraint.bbb');
 
-
 var rects = {
   first: {width: 200, height: 100, x: 50, y: 50},
   second: {width: 75, height: 50, x: 300, y: 300}
 };
-var collisionConstraint = new CollisionConstraint(rects.first, rects.second);
+new CollisionConstraint(rects.first, rects.second);
 
 
 // Setup Express app (static files and request handling)
