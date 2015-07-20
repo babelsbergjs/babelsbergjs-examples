@@ -1,0 +1,32 @@
+{
+  "name": "babelsbergjs-examples",
+  "version": "0.1.1",
+  "description": "BabelsbergJS core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babelsbergjs/babelsbergjs-examples.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "The Berg",
+  "bugs": {
+    "url": "https://github.com/babelsbergjs/babelsbergjs-examples/issues"
+  },
+  "homepage": "https://github.com/babelsbergjs/babelsbergjs-examples",
+  "dependencies": {
+    "babelsbergjs-cassowary": "~0.1.0",
+    "babelsbergjs-core": "~0.1.0",
+    "babelsbergjs-require": "^0.1.2",
+    "express": "^4.13.0"
+  },
+  "devDependencies": {
+    "should": "^7.0.1"
+  }
+}
