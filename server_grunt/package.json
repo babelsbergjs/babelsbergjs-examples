@@ -1,7 +1,7 @@
 {
   "name": "babelsbergjs-examples",
-  "version": "0.1.1",
-  "description": "BabelsbergJS core",
+  "version": "0.2.0",
+  "description": "BabelsbergJS Grunt examples",
   "main": "index.js",
   "scripts": {
     "start": "grunt && node server/dist/index.min.js",

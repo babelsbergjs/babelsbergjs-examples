@@ -1,0 +1,18 @@
+{
+  "name": "babelsbergjs-examples",
+  "version": "0.2.0",
+  "description": "BabelsbergJS examples",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babelsbergjs/babelsbergjs-examples.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "The Berg",
+  "bugs": {
+    "url": "https://github.com/babelsbergjs/babelsbergjs-examples/issues"
+  },
+  "homepage": "https://github.com/babelsbergjs/babelsbergjs-examples"
+}

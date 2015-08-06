@@ -1,7 +1,7 @@
 {
   "name": "babelsbergjs-examples",
   "version": "0.1.1",
-  "description": "BabelsbergJS core",
+  "description": "BabelsbergJS examples",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
